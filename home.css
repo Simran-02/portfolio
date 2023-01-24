@@ -1,0 +1,126 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200&family=Oswald:wght@300;400&family=Qwitcher+Grypen&family=Source+Sans+Pro&display=swap');
+*/
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    padding: 5rem;
+    color: white;
+    background-color: black;
+    width: 12rem;
+    height: 75rem;
+    font-size: 1rem;
+
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.right {
+    width: 38rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+    margin: 1rem;
+}
+
+a {
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(5, 0, 12);
+    font-weight: bolder;
+    color: white;
+}
+
+@media(max-width:604px) {
+
+    .container {
+        flex-wrap: wrap;
+
+    }
+
+    .left {
+        font-size: 1rem;
+        width: 12rem;
+        height: 80rem;
+
+    }
+
+    .right {
+        width: 12rem;
+        font-size: 1vh;
+        height: 80rem;
+    }
+
+    @media(max-width:1358px) {
+
+        .container {
+            flex-wrap: wrap;
+
+        }
+
+        .left {
+            width: 12rem;
+            height: 80rem;
+
+            font-size: 1rem;
+        }
+
+        .right {
+            width: 12rem;
+            font-size: 1vh;
+            height: 80rem;
+        }
+
+
+    }
+
+    .p {
+        font-size: 2vh;
+    }
+}
+
+.resume {
+    background-color: rgb(7, 7, 8);
+    color: whitesmoke;
+}
+
+@media(max-width:354px){
+   
+      .container {
+        flex-wrap:block;
+
+    }
+    .right,p,h3 {
+      font-size: 13px;
+    }
+    
+}
+@media(max-width:602px){
+   
+    .container {
+      flex-wrap:block;
+
+  }
+  .right,p,h3 {
+    font-size: 13px;
+  }
+  
+}
